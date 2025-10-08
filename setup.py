@@ -35,3 +35,10 @@ setup(
     # install_requires=['pandas','numpy','seaborn','matplotlib','scikit-learn','flask','xgboost','lightgbm','catboost'], 
     install_requires=get_requirements('requirements.txt')
 )
+
+
+
+
+#Normal install → Making a photocopy of your book. Changing the original book doesn’t change the photocopy.
+
+#Editable install (-e .) → Putting a bookmark to the original book. Any edits you make to the book are seen immediately when you read it.
