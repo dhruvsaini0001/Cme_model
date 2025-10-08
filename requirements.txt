@@ -1,0 +1,43 @@
+## Core Libraries
+numpy
+pandas
+scipy
+##  Deep Learning Frameworks
+tensorflow
+keras
+torch
+torchvision
+##Visualization
+matplotlib
+seaborn
+plotly
+##  Solar / Space Physics & Astronomy
+
+sunpy
+astropy
+heliopy
+
+## CDF File Handling
+spacepy
+cdflib
+## model evaluation
+scikit-learn
+tqdm
+# 'pickle' is part of the Python standard library; do not list it here
+##  Cloud, Config, and Logging
+
+python-dotenv
+loguru
+requests
+PyYAML  # PyPI package name for YAML support
+
+
+## Optional Interface / Dashboard
+
+jupyter
+streamlit
+dash
+
+
+
+-e .  ## trigger setup.py file to install the package 
