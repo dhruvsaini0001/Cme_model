@@ -11,6 +11,7 @@ def get_requirements(file_path: str) -> list[str]:
     - Ignores empty lines and comments
     - Ignores editable/local installs (lines starting with '-e' or 'git+')
     """
+    
     requirements: list[str] = []
     with open(file_path, "r", encoding="utf-8") as f:
         for line in f:
